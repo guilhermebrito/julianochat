@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:weightSum="1">
+
+
+    <ImageView
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </ImageView>
+
+    <ImageView
+        android:background="@drawable/titulo_cadastro"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+    </ImageView>
+
+    <EditText
+        android:id="@+id/edit_nickname"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:inputType="textPersonName|textCapSentences"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:nextFocusForward="@+id/acceptTerms"
+        >
+        <requestFocus></requestFocus>
+    </EditText>
+    <LinearLayout
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="40dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        >
+        <CheckBox
+            android:id="@+id/acceptTerms"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:textColor="#000"
+            android:text="Aceito os ">
+        </CheckBox>
+        <TextView
+            android:id="@+id/useTermsLink"
+            style="@style/TextBlueBold"
+            android:layout_gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="termos de uso"
+            android:nextFocusForward="@+id/button_chat"
+            />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_chat"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="wrap_content"
+        android:background="@drawable/botao_confirma"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        >
+    </Button>
+    <TextView
+        android:layout_gravity="center_horizontal"
+        android:text="Para interagir com o movimento Governe-se de modo totalmente seguro!"
+        android:layout_width="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:textColor="#000"
+        android:layout_height="wrap_content">
+    </TextView>
+
+</LinearLayout>

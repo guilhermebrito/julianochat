@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent">
+
+    <RelativeLayout android:id="@+id/chat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:minWidth="130dp"
+        android:minHeight="30dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="25dp"
+        android:visibility="gone"
+        android:background="@drawable/balloonpassenger"
+        android:layout_alignParentRight="true" >
+
+        <TextView
+            android:id="@+id/chatMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:layout_marginRight="15dp"
+            android:textColor="#7D7D7D"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/chatMsg" />
+
+        <ImageView
+            android:id="@+id/imageState"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chat_waiting"
+            android:layout_alignParentRight="true"
+            android:layout_below="@id/chatMsg"
+            android:layout_marginTop="2dp"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+    <LinearLayout android:id="@+id/chatDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        android:background="@drawable/balloondriver"
+        android:orientation="vertical"
+        android:minWidth="130dp"
+        android:minHeight="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/chatFrom"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="12dp"
+            android:textColor="#507A8E"
+            android:textStyle="bold"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/chatDriverMsg"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_marginLeft="5dp" />
+
+        <TextView
+            android:id="@+id/driverChatDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:textSize="12dp"
+            android:textColor="#7D7D7D" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/logLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:visibility="gone"
+        android:orientation="vertical"
+        android:minWidth="130dp"
+        android:minHeight="30dp"
+        android:layout_marginLeft="1dp"
+        android:layout_marginRight="1dp"
+        android:layout_alignParentLeft="true">
+        <TextView
+            android:id="@+id/log"
+            android:background="#CCD6F9"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp">
+        </TextView>
+    </LinearLayout>
+
+</RelativeLayout>

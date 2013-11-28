@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Governe-se</string>
+    <string name="app_title_main">Chat Governe-se</string>
+
+    <string name="app_title_settings">Chat Settings</string>
+    <string name="app_title_chat">Chat Room</string>
+    <string name="app_title_participants">Chat Participants</string>
+
+    <string name="label_nick">Enter Nickname</string>
+    <string name="label_host">Host</string>
+    <string name="label_port">Port</string>
+    
+    <string name="button_login">  chat!  </string>
+    <string name="button_send">send</string>
+    <string name="button_use">  use  </string>
+
+    <string name="menu_settings">settings</string>
+    <string name="menu_exit">exit</string>
+    <string name="menu_participants">participants</string>
+    <string name="menu_clear">clear</string>
+    
+    <string name="msg_connecting_to">Connecting to</string>
+    <string name="msg_nickname_in_use">Nickname already in use!</string>
+    <string name="msg_nickname_not_valid">Informe seu nickname</string>
+    <string name="msg_please_accept_terms">Você precisa aceitar os termos</string>
+    <string name="msg_unexpected">Unexpected error!</string>
+    
+    <string name="msg_interface_exc">Internal error!</string>
+    <string name="msg_controller_exc">Server error!</string>
+
+
+    <string name="button_agree">Confirme V</string>
+    <string name="splash_text">Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</string>
+    <string name="terms_text">Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</string>
+</resources>

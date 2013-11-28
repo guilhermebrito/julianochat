@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:weightSum="1">
+
+    <ImageView
+        android:background="@drawable/logo"
+        android:layout_gravity="center_horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        >
+    </ImageView>
+
+    <ListView
+        android:id="@+id/chatList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#000000"
+        android:dividerHeight="0dp"
+        android:layout_marginBottom="50dip"
+        android:scrollingCache="false"/>
+
+
+    <RelativeLayout
+        android:layout_marginTop="-50dip"
+        android:gravity="bottom"
+        android:layout_height="wrap_content"
+        android:layout_width="fill_parent"
+        android:background="@drawable/bkg_bottom_fixo"
+        >
+        <Button
+            android:id="@+id/button_send"
+            android:text="@string/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            >
+        </Button>
+
+        <EditText android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_toLeftOf="@id/button_send"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/edit_message">
+        </EditText>
+    </RelativeLayout>
+</LinearLayout>
